@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Capriola;
+}
+
+.row {
+  animation: fadeInUp;
+  animation-duration: 4s;
+}
+/* Navbar */
+.nav-item a {
+  margin-right: 20px;
+  color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: #87bfff;
+}
+
+.jumbotron img,
+h1,
+p {
+  animation: fadeInUp;
+  animation-duration: 4s;
+}
+
+/* About */
+.about {
+  padding: 40px;
+  color: #fff;
+}
+
+/* My Hobby */
+.myhobby {
+  padding: 40px;
+  color: #fff;
+}
+
+.card img {
+  height: 300px;
+}
+
+.card-body h5 {
+  text-align: Center;
+}
+
+.card-body p {
+  font-size: 15px;
+}
+
+footer {
+  color: #fff;
+}
+
+/* Responsive Tablet */
+@media (max-width: 1024px) {
+  /* My Hobby */
+  .card img {
+    height: 180px;
+  }
+}
+
+/* Responsive Handphone */
+@media (max-width: 640px) {
+  /* Jumbotron */
+  .jumbotron h1 {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  .jumbotron p {
+    font-size: 12px;
+  }
+
+  /* About */
+  .about p {
+    font-size: 15px;
+  }
+
+  /* My Hobby */
+  .card {
+    margin-bottom: 2rem;
+  }
+
+  /* Footer */
+  footer {
+    height: 190px;
+  }
+}
